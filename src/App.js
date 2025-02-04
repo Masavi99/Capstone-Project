@@ -1,11 +1,18 @@
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Main from './Main';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>HomePage</p>
-    </div>
-  );
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
+  )
 }
 
 export default App;
